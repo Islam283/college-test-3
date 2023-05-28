@@ -1,5 +1,6 @@
 export default function solution(content) {
   // BEGIN
-  console.log(content)
+  const rows = content.split('\n')
+  console.log(rows)
   // END
 }
