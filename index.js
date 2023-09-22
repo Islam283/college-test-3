@@ -27,5 +27,5 @@ export default function solution(content) {
    const dangerousOnlyRows = data.filter(row => row[4] ==='Да')
    const dangerousHabitatas = dangerousOnlyRows.map((row) => row[1].split(', ').map(place => place[0].toUpperCase() + place.slice(1)))
    console.log(dangerousHabitatas)
-  // END
+  
 } 
